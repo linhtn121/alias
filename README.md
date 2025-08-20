@@ -16,3 +16,10 @@
 #### alias dlog='docker logs -f'
 #### alias dexec='docker exec -it'
 #### alias dclean='docker system prune -f'
+
+
+# projects.sh
+#### alias m-mainapp='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}"'
+#### alias m-mini1='docker logs -f'
+#### alias m-mini2='docker exec -it'
+#### alias m-cli='docker system prune -f'
